@@ -1,6 +1,50 @@
 {
     "packages": [
         {
+            "name": "do-app-platform-test/sub-repo",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:DO-app-platform-test/sub-repo.git",
+                "reference": "91af3bdccdbbb0746fd91356a6d899ce7d262213"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DO-app-platform-test/sub-repo/zipball/91af3bdccdbbb0746fd91356a6d899ce7d262213",
+                "reference": "91af3bdccdbbb0746fd91356a6d899ce7d262213",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "symfony/framework-bundle": "^6"
+            },
+            "time": "2022-09-25T09:21:09+00:00",
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Pjanka\\PjankaToolsBundle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maris Liepins",
+                    "email": "maris.l@outlook.com"
+                }
+            ],
+            "description": "Private repo test",
+            "support": {
+                "source": "https://github.com/DO-app-platform-test/sub-repo/tree/main",
+                "issues": "https://github.com/DO-app-platform-test/sub-repo/issues"
+            },
+            "install-path": "../do-app-platform-test/sub-repo"
+        },
+        {
             "name": "psr/cache",
             "version": "3.0.0",
             "version_normalized": "3.0.0.0",

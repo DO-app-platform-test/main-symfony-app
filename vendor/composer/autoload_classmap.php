@@ -8,6 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
+    'Pjanka\\PjankaToolsBundle\\PjankaToolsBundle' => $vendorDir . '/do-app-platform-test/sub-repo/src/PjankaToolsBundle.php',
+    'Pjanka\\PjankaToolsBundle\\Tools\\DecimalOperations' => $vendorDir . '/do-app-platform-test/sub-repo/src/Tools/DecimalOperations.php',
     'Psr\\Cache\\CacheException' => $vendorDir . '/psr/cache/src/CacheException.php',
     'Psr\\Cache\\CacheItemInterface' => $vendorDir . '/psr/cache/src/CacheItemInterface.php',
     'Psr\\Cache\\CacheItemPoolInterface' => $vendorDir . '/psr/cache/src/CacheItemPoolInterface.php',
@@ -1084,5 +1086,5 @@ return array(
     'Symfony\\Runtime\\Symfony\\Component\\HttpFoundation\\RequestRuntime' => $vendorDir . '/symfony/runtime/Internal/HttpFoundation/RequestRuntime.php',
     'Symfony\\Runtime\\Symfony\\Component\\HttpFoundation\\ResponseRuntime' => $vendorDir . '/symfony/runtime/Internal/HttpFoundation/ResponseRuntime.php',
     'Symfony\\Runtime\\Symfony\\Component\\HttpKernel\\HttpKernelInterfaceRuntime' => $vendorDir . '/symfony/runtime/Internal/HttpKernel/HttpKernelInterfaceRuntime.php',
-    '©' => $vendorDir . '/symfony/cache/Traits/ValueWrapper.php',
+    'ï¿½' => $vendorDir . '/symfony/cache/Traits/ValueWrapper.php',
 );

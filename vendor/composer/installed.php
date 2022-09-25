@@ -1,15 +1,26 @@
 <?php return array(
     'root' => array(
         'name' => 'symfony/skeleton',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '88a3c535e96fc6310e8adece91c3a5c5b733dac3',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
+        'do-app-platform-test/sub-repo' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '91af3bdccdbbb0746fd91356a6d899ce7d262213',
+            'type' => 'symfony-bundle',
+            'install_path' => __DIR__ . '/../do-app-platform-test/sub-repo',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'psr/cache' => array(
             'pretty_version' => '3.0.0',
             'version' => '3.0.0.0',
@@ -335,9 +346,9 @@
             ),
         ),
         'symfony/skeleton' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '88a3c535e96fc6310e8adece91c3a5c5b733dac3',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

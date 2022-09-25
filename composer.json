@@ -21,7 +21,7 @@
         "symfony/framework-bundle": "6.1.*",
         "symfony/runtime": "6.1.*",
         "symfony/yaml": "6.1.*",
-        "db-id/pjanka-common-tools": "dev-main"
+        "do-app-platform-test/sub-repo": "dev-main"
     },
     "require-dev": {
     },
@@ -57,8 +57,10 @@
         "symfony/polyfill-php81": "*"
     },
     "scripts": {
-        "auto-scripts": [
-        ],
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        },
         "post-install-cmd": [
             "@auto-scripts"
         ],

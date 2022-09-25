@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "318543960e2c32cf5402fe88eb913062",
+    "content-hash": "7e910f29b624ba7f1a903f0368bafe56",
     "packages": [
+        {
+            "name": "do-app-platform-test/sub-repo",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:DO-app-platform-test/sub-repo.git",
+                "reference": "91af3bdccdbbb0746fd91356a6d899ce7d262213"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DO-app-platform-test/sub-repo/zipball/91af3bdccdbbb0746fd91356a6d899ce7d262213",
+                "reference": "91af3bdccdbbb0746fd91356a6d899ce7d262213",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "symfony/framework-bundle": "^6"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Pjanka\\PjankaToolsBundle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maris Liepins",
+                    "email": "maris.l@outlook.com"
+                }
+            ],
+            "description": "Private repo test",
+            "support": {
+                "source": "https://github.com/DO-app-platform-test/sub-repo/tree/main",
+                "issues": "https://github.com/DO-app-platform-test/sub-repo/issues"
+            },
+            "time": "2022-09-25T09:21:09+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",
@@ -2364,7 +2405,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "do-app-platform-test/sub-repo": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
