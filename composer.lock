@@ -11,7 +11,7 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "git@github.com:DO-app-platform-test/sub-repo.git",
+                "url": "https://github.com/DO-app-platform-test/sub-repo.git",
                 "reference": "91af3bdccdbbb0746fd91356a6d899ce7d262213"
             },
             "dist": {
